@@ -1,0 +1,42 @@
+body {
+  background-color: #02050e;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #e2e8f0;
+  font-size: 1em;
+}
+h1 {
+  font-size: 2em;
+  color: #e2e8f0;
+  text-align: center;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0b1123;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+a {
+  color: #00f0ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #38bdf8;
+  transition: color 0.3s ease-out;
+}
+::selection {
+  background: #ff007f;
+  color: #02050e;
+}
+li {
+  color: #64748b;
+}
+
+.listTitle {
+  font-weight: bold;
+  color: #e2e8f0;
+}
